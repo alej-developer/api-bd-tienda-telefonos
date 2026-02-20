@@ -12,8 +12,8 @@ mongoose.connect('mongodb://127.0.0.1:27017/tienda_moviles')
     .catch(err => console.error('Error.', err));
 
 app.use('/api/devices', devicesRouter);
-
+np
 app.listen(PORT, () => {
-     console.log('Servidor en http://localhost:${PORT}')
+     console.log(`Servidor en http://localhost:${PORT}`)
 });
 
